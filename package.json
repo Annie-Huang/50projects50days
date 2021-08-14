@@ -1,0 +1,20 @@
+{
+  "name": "50projects50days",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=./blurry-loading"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/50projects50days.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/50projects50days/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/50projects50days#readme"
+}
