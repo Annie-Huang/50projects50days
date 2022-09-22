@@ -8,3 +8,6 @@ https://github.com/bradtraversy/50projects50days
 https://github.com/Annie-Huang/50projects50days
 
 =================================================================
+
+scroll-animation:
+As scroll down, the new box will slide into the center of the page from left or right side.
