@@ -1,6 +1,9 @@
 Build 5 Projects With HTML, CSS & JavaScript
 (https://www.youtube.com/watch?v=JkeyKeK3V24&t=124s)
 
+5 HTML, CSS & JS Mini Projects - Scroll Animation, Rotating Navigation, Drag Events, etc
+(https://www.youtube.com/watch?v=HtunPQtr-Xw)
+
 https://github.com/bradtraversy/50projects50days
 https://github.com/Annie-Huang/50projects50days
 
