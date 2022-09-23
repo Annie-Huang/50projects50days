@@ -7,6 +7,8 @@ Build 5 Projects With HTML, CSS & JavaScript
 https://github.com/bradtraversy/50projects50days
 https://github.com/Annie-Huang/50projects50days
 
+https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
+
 =================================================================
 
 scroll-animation:
