@@ -13,3 +13,6 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
 
 scroll-animation:
 As scroll down, the new box will slide into the center of the page from left or right side.
+
+rotating-nav-animation:
+Click on the hamburger button to rotate the page to 20deg so the menu items shows.
