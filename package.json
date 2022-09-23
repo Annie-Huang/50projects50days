@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./scroll-animation"
+    "start": "lite-server --baseDir=./rotating-nav-animation"
   },
   "repository": {
     "type": "git",
