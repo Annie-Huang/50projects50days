@@ -16,3 +16,6 @@ As scroll down, the new box will slide into the center of the page from left or 
 
 rotating-nav-animation:
 Click on the hamburger button to rotate the page to 20deg so the menu items shows.
+
+form-input-wave:
+Click on the input field will trigger the label letter to move up one by one so it create a wave effect. Do opposite to move down the label if the other input field happens to lose focus.
