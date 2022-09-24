@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./rotating-nav-animation"
+    "start": "lite-server --baseDir=./form-input-wave"
   },
   "repository": {
     "type": "git",
