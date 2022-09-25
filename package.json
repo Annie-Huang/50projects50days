@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./blurry-loading"
+    "start": "lite-server --baseDir=./double-vertical-slider"
   },
   "repository": {
     "type": "git",
