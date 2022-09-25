@@ -48,11 +48,17 @@ body {
   height: 500px;
   width: 500px;
 
-  outline: 1px solid;
+  /*outline: 1px solid;*/
+
+  position: relative;
+  transition: 0.4s ease;
 }
 .boxes.big {
   width: 600px;
   height: 600px;
+}
+.boxes.big .box {
+  transform: rotateZ(360deg);
 }
 .box {
   background-image: url('https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif');
@@ -60,4 +66,6 @@ body {
   background-size: 500px 500px;
   height: 125px;
   width: 125px;
+
+  transition: 0.4s ease;
 }
