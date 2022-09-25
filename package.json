@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./3d-boxes-background"
+    "start": "lite-server --baseDir=./hoverboard"
   },
   "repository": {
     "type": "git",
