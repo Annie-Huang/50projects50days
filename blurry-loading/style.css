@@ -20,7 +20,7 @@ body {
   position: absolute;
   inset: -30px; /* Make the background image bigger than the view point so the white space in the edge is not so big, you can see the different by changing it from blur(0px) to blur(70px) below */
   z-index: -1;
-  filter: blur(70px);
+  filter: blur(0px);
 }
 
 .loading-text {

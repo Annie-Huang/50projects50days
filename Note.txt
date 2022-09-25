@@ -27,3 +27,6 @@ Create two parallelogram so it gives the 3D effect of the box.
 hoverboard:
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
+
+blurry-loading:
+On loading, image change from blur to clea. % change from 0 to 100.
