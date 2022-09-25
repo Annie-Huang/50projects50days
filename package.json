@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./form-input-wave"
+    "start": "lite-server --baseDir=./3d-boxes-background"
   },
   "repository": {
     "type": "git",
