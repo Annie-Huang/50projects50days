@@ -11,3 +11,18 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.container {
+}
+
+.square {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  height: 16px;
+  width: 16px;
+  margin: 2px;
+  transition: 2s ease; /* when we unhover the box, it will take 2s to fade out the color */
+}
+.square:hover {
+  transition-duration: 0; /* when we hover on the box, it immediately change color */
+}
