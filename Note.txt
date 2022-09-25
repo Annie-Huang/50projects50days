@@ -30,4 +30,5 @@ When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
 
 blurry-loading:
-On loading, image change from blur to clea. % change from 0 to 100.
+On loading, image change from blur(30px) to clear(0px).
+And the percentage text changes from 0% to 100%, and slowly fade out when it reaches 100%.
