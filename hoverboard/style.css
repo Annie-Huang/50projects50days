@@ -29,5 +29,5 @@ body {
   transition: 2s ease; /* when we unhover the box, it will take 2s to fade out the color */
 }
 .square:hover {
-  transition-duration: 0; /* when we hover on the box, it immediately change color */
+  transition-duration: 0s; /* when we hover on the box, it immediately change color. You have to add the 's' in here, otherwise it will not work */
 }
