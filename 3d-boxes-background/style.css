@@ -44,8 +44,15 @@ body {
 .boxes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   height: 500px;
   width: 500px;
+
+  outline: 1px solid;
+}
+.boxes.big {
+  width: 600px;
+  height: 600px;
 }
 .box {
   background-color: yellow;
