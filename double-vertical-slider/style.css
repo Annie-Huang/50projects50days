@@ -19,9 +19,11 @@ body {
 }
 
 .left-slide {
-  position: absolute;
-  inset: 0;
+  height: 100%;
   width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .left-slide > div {
   height: 100%;
