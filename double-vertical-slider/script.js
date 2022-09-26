@@ -8,3 +8,11 @@ const slidesLength = slideRight.querySelectorAll('div').length;
 console.log(slidesLength);
 
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
+
+upButton.addEventListener('click', () => changeSlide('up'));
+upButton.addEventListener('click', () => changeSlide('down'));
+
+const changeSlide = (direction) => {
+  const sliderHeight = sliderContainer.clientHeight;
+  console.log(sliderHeight); // when you make the window lower, you will see the value changes.
+};
