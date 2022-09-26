@@ -11,7 +11,7 @@ let activeSlideIndex = 0;
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
 
 upButton.addEventListener('click', () => changeSlide('up'));
-upButton.addEventListener('click', () => changeSlide('down'));
+downButton.addEventListener('click', () => changeSlide('down'));
 
 const changeSlide = (direction) => {
   const sliderHeight = sliderContainer.clientHeight;
@@ -21,6 +21,11 @@ const changeSlide = (direction) => {
     activeSlideIndex++;
     if (activeSlideIndex > slidesLength - 1) {
       activeSlideIndex = 0;
+    }
+  } else if (direction === 'down') {
+    activeSlideIndex--;
+    if (activeSlideIndex < 0) {
+      activeSlideIndex = slidesLength - 1;
     }
   }
 
