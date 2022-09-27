@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./double-vertical-slider"
+    "start": "lite-server --baseDir=./random-choice-picker"
   },
   "repository": {
     "type": "git",
