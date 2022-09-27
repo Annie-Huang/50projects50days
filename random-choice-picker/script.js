@@ -29,4 +29,27 @@ function createTags(input) {
   });
 }
 
-function randomSelect() {}
+function randomSelect() {
+  const times = 30;
+
+  const interval = setInterval(() => {
+    const randomTag = pickRandomTag();
+
+    hightlightTag(randomTag);
+
+    setTimeout(() => unHightlightTag(randomTag), 100);
+  }, 100);
+}
+
+function pickRandomTag() {
+  const tags = document.querySelectorAll('.tag');
+  return tags[Math.floor(Math.random() * tags.length)];
+}
+
+function hightlightTag(tag) {
+  tag.classList.add('hightlight');
+}
+
+function unHightlightTag(tag) {
+  tag.classList.remove('hightlight');
+}
