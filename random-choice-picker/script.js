@@ -39,6 +39,16 @@ function randomSelect() {
 
     setTimeout(() => unHightlightTag(randomTag), 100);
   }, 100);
+
+  setTimeout(() => {
+    clearInterval(interval);
+
+    setTimeout(() => {
+      const randomTag = pickRandomTag();
+
+      hightlightTag(randomTag);
+    }, 100);
+  }, times * 100);
 }
 
 function pickRandomTag() {

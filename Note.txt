@@ -35,3 +35,4 @@ And the percentage text changes from 0% to 100%, and slowly fade out when it rea
 
 random-choice-picker:
 Enter option text and separate them by ','. The key in 'Enter' to start randomly pick an option.
+(very good usage of time calculation through setTimeout and setInterval)
