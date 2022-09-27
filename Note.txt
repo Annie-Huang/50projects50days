@@ -32,3 +32,6 @@ Good info about transition in one directly only.
 blurry-loading:
 On loading, image change from blur(30px) to clear(0px).
 And the percentage text changes from 0% to 100%, and slowly fade out when it reaches 100%.
+
+random-choice-picker:
+Enter option text and separate them by ','. The key in 'Enter' to start randomly pick an option.
