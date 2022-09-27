@@ -18,7 +18,7 @@ function createTags(input) {
     .split(',')
     .filter((tag) => tag.trim() !== '')
     .map((tag) => tag.trim());
-  console.log(tags);
+  // console.log(tags);
 
   tagsEl.innerHTML = '';
   tags.forEach((tag) => {
