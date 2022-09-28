@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./random-choice-picker"
+    "start": "lite-server --baseDir=./live-user-filter"
   },
   "repository": {
     "type": "git",
