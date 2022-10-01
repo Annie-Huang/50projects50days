@@ -39,3 +39,6 @@ Enter option text and separate them by ','. The key in 'Enter' to start randomly
 
 live-user-filter:
 Basically autocomplete component
+
+content-placeholder:
+Basically the mask on content and animate on gradient. Give the illusion of loading.
