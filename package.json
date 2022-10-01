@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./live-user-filter"
+    "start": "lite-server --baseDir=./content-placeholder"
   },
   "repository": {
     "type": "git",
