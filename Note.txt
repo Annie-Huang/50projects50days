@@ -12,33 +12,37 @@ https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-nu
 https://randomuser.me/
 =================================================================
 
-scroll-animation:
+07-scroll-animation:
 As scroll down, the new box will slide into the center of the page from left or right side.
 
-rotating-nav-animation:
+04-rotating-nav-animation:
 Click on the hamburger button to rotate the page to 20deg so the menu items shows.
 
-form-input-wave:
+09-form-input-wave:
 Click on the input field will trigger the label letter to move up one by one so it create a wave effect. Do opposite to move down the label if the other input field happens to lose focus.
 
-3d-boxes-background:
+41-3d-boxes-background:
 Click | unclick the Magic button to rotate open | close the image.
 Create two parallelogram so it gives the 3D effect of the box.
 
-hoverboard:
+37-hoverboard:
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
 
-blurry-loading:
+06-blurry-loading:
 On loading, image change from blur(30px) to clear(0px).
 And the percentage text changes from 0% to 100%, and slowly fade out when it reaches 100%.
 
-random-choice-picker:
+14-random-choice-picker:
 Enter option text and separate them by ','. The key in 'Enter' to start randomly pick an option.
 (very good usage of time calculation through setTimeout and setInterval)
 
-live-user-filter:
+43-live-user-filter:
 Basically autocomplete component
 
-content-placeholder:
+25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
+
+27-double-vertical-slider:
+On click the left panel will move down to the next image. the right panel will move up to the previous image
+

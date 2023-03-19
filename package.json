@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./content-placeholder"
+    "start": "lite-server --baseDir=./27-double-vertical-slider"
   },
   "repository": {
     "type": "git",
