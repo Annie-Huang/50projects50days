@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./01-expanding-cards"
+    "start": "lite-server --baseDir=./03-progress-steps"
   },
   "repository": {
     "type": "git",
