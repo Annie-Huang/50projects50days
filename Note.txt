@@ -12,8 +12,11 @@ https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-nu
 https://randomuser.me/
 =================================================================
 
-01-expanding-cards:
+02-expanding-cards:
 Multiple vertical panel, each have a background image, onclick to slowly expand to display the image.
+
+03-progress-steps
+Step progress bar with prev | next button. prev button will be disabled at the start and next button will at the end.
 
 04-rotating-nav-animation:
 Click on the hamburger button to rotate the page to 20deg so the menu items shows.
