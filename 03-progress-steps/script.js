@@ -12,6 +12,8 @@ next.addEventListener('click', () => {
     currentActive = circles.length;
   }
   // console.log(currentActive);
+
+  update();
 });
 
 prev.addEventListener('click', () => {
@@ -21,4 +23,16 @@ prev.addEventListener('click', () => {
     currentActive = 1;
   }
   // console.log(currentActive);
+
+  update();
 });
+
+function update() {
+  circles.forEach((circle, idx) => {
+    if (idx < currentActive) {
+      circle.classList.add('active');
+    } else {
+      circle.classList.remove('active');
+    }
+  });
+}
