@@ -1,5 +1,5 @@
 Build 5 Projects With HTML, CSS & JavaScript
-(https://www.youtube.com/watch?v=JkeyKeK3V24&t=124s)
+(https://www.youtube.com/watch?v=JkeyKeK3V24)
 
 5 HTML, CSS & JS Mini Projects - Scroll Animation, Rotating Navigation, Drag Events, etc
 (https://www.youtube.com/watch?v=HtunPQtr-Xw)

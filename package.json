@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./03-progress-steps"
+    "start": "lite-server --baseDir=./05-hidden-search"
   },
   "repository": {
     "type": "git",
