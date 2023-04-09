@@ -8,6 +8,8 @@
 
   --hover-width: 75%;
   --other-width: calc(100% - var(--hover-width));
+
+  --speed: 1000ms;
 }
 
 * {
@@ -93,6 +95,13 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: var(--right-bg-color);
+}
+
+.split.left,
+.split.left::before,
+.split.right,
+.split.right::before {
+  transition: all var(--speed) ease-in-out;
 }
 
 .hover-left .left {
