@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./05-hidden-search"
+    "start": "lite-server --baseDir=./08-split-landing-page"
   },
   "repository": {
     "type": "git",
