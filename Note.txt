@@ -28,6 +28,9 @@ And the percentage text changes from 0% to 100%, and slowly fade out when it rea
 07-scroll-animation:
 As scroll down, the new box will slide into the center of the page from left or right side.
 
+08-split-landing-page:
+Page divided into left and right side. Each side will increase width when on hover.
+
 09-form-input-wave:
 Click on the input field will trigger the label letter to move up one by one so it create a wave effect. Do opposite to move down the label if the other input field happens to lose focus.
 
