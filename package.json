@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./08-split-landing-page"
+    "start": "lite-server --baseDir=./10-sound-board"
   },
   "repository": {
     "type": "git",
