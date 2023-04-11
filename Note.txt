@@ -37,6 +37,9 @@ Click on the input field will trigger the label letter to move up one by one so 
 10-sound-board:
 Pay music when clicking the button (stop previous one first).
 
+11-dad-jokes:
+Standard async await call. nothing special on this project.
+
 14-random-choice-picker:
 Enter option text and separate them by ','. The key in 'Enter' to start randomly pick an option.
 (very good usage of time calculation through setTimeout and setInterval)
