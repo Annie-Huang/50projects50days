@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./10-sound-board"
+    "start": "lite-server --baseDir=./11-dad-jokes"
   },
   "repository": {
     "type": "git",
