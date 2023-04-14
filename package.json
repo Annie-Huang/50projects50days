@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./12-event-keycodes"
+    "start": "lite-server --baseDir=./13-faq-collapse"
   },
   "repository": {
     "type": "git",
