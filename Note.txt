@@ -43,6 +43,9 @@ Standard async await call. Nothing special on this project.
 12-event-keycodes:
 Display keycode from the keyboard key you pressed. Nothing special on this project.
 
+13-faq-collapse:
+Standard open and collapse card through button click. Nothing special on this project.
+
 14-random-choice-picker:
 Enter option text and separate them by ','. The key in 'Enter' to start randomly pick an option.
 (very good usage of time calculation through setTimeout and setInterval)
