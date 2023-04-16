@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./13-faq-collapse"
+    "start": "lite-server --baseDir=./15-animated-navigation"
   },
   "repository": {
     "type": "git",
