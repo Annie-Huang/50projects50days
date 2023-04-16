@@ -50,6 +50,9 @@ Standard open and collapse card through button click. Nothing special on this pr
 Enter option text and separate them by ','. The key in 'Enter' to start randomly pick an option.
 (very good usage of time calculation through setTimeout and setInterval)
 
+15-animated-navigation:
+Open and close menu bar with hamburger line in rotation and menu text in y-axis rotation.
+
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
