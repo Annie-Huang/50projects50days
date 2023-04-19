@@ -53,6 +53,9 @@ Enter option text and separate them by ','. The key in 'Enter' to start randomly
 15-animated-navigation:
 Open and close menu bar with hamburger line in rotation and menu text in y-axis rotation.
 
+16-incrementing-counter:
+Animation to auto incrementation on number until it reaches the target.
+
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
