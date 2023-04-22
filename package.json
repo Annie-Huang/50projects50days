@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./16-incrementing-counter"
+    "start": "lite-server --baseDir=./17-drink-water"
   },
   "repository": {
     "type": "git",
