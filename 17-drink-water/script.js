@@ -45,4 +45,12 @@ function updateBigCup() {
     percentage.style.height = `${(fullCups / totalCups) * 330}px`;
     percentage.innerText = `${(fullCups / totalCups) * 100}%`;
   }
+
+  if (fullCups === totalCups) {
+    remained.style.visibility = 'hidden';
+    remained.style.height = '0';
+  } else {
+    remained.style.visibility = 'visible';
+    listers.innerText = `${2 - (250 * fullCups) / 1000}L`;
+  }
 }
