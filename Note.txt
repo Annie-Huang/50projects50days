@@ -56,6 +56,9 @@ Open and close menu bar with hamburger line in rotation and menu text in y-axis 
 16-incrementing-counter:
 Animation to auto incrementation on number until it reaches the target.
 
+17-drink-water:
+Calculate how many cups have drink and remaining when a list of small cups are clicked. Nice UI and calculation. But Nothing special on this project.
+
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
