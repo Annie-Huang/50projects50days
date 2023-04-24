@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./17-drink-water"
+    "start": "lite-server --baseDir=./18-movie-app"
   },
   "repository": {
     "type": "git",
