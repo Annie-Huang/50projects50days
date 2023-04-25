@@ -59,6 +59,9 @@ Animation to auto incrementation on number until it reaches the target.
 17-drink-water:
 Calculate how many cups have drink and remaining when a list of small cups are clicked. Nice UI and calculation. But Nothing special on this project.
 
+18-movie-app:
+Movie app to get list from external api and hover on movie will show overview card slide up from bottom. Nice UI. But Nothing special on this project.
+
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
