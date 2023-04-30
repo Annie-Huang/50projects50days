@@ -37,3 +37,18 @@ body::before {
   position: relative;
   overflow: hidden;
 }
+
+.slide {
+  opacity: 0;
+  height: 100vh;
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+
+  position: absolute;
+  top: -15vh; /* this is because the height is 70vh */
+  left: -15vw; /* this is because the width is 70vw */
+}
+.slide.active {
+  opacity: 1;
+}
