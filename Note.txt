@@ -62,6 +62,9 @@ Calculate how many cups have drink and remaining when a list of small cups are c
 18-movie-app:
 Movie app to get list from external api and hover on movie will show overview card slide up from bottom. Nice UI. But Nothing special on this project.
 
+19-background-slider:
+Have two images on top of each other to give illusion it's a frame with a hole in the middle, carousel component with next and prev buttons.
+
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
