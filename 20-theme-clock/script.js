@@ -49,6 +49,19 @@ function setTime() {
   const hoursForClock = hours % 12;
   const minutes = time.getMinutes();
   const seconds = time.getSeconds();
+
+  hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(
+    hoursForClock,
+    0,
+    12,
+    0,
+    360
+  )}deg)`;
 }
+
+// StackOverflow https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
+const scale = (num, in_min, in_max, out_min, out_max) => {
+  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
+};
 
 setTime();
