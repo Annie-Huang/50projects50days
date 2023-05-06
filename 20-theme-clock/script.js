@@ -39,3 +39,16 @@ toggle.addEventListener('click', (e) => {
     e.target.innerHTML = 'Light mode';
   }
 });
+
+function setTime() {
+  const time = new Date();
+  console.log(time);
+  const month = time.getMonth();
+  const day = time.getDay();
+  const hours = time.getHours();
+  const hoursForClock = hours % 12;
+  const minutes = time.getMinutes();
+  const seconds = time.getSeconds();
+}
+
+setTime();
