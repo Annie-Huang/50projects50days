@@ -3,7 +3,7 @@ const minuteEl = document.querySelector('.minute');
 const secondEl = document.querySelector('.second');
 const timeEl = document.querySelector('.time');
 const dateEl = document.querySelector('.date');
-const toggleEl = document.querySelector('.toggle');
+const toggle = document.querySelector('.toggle');
 
 const days = [
   'Sunday',
@@ -28,3 +28,14 @@ const months = [
   'Nov',
   'Dec',
 ];
+
+toggle.addEventListener('click', (e) => {
+  const html = document.querySelector('html');
+  if (html.classList.contains('dark')) {
+    html.classList.remove('dark');
+    e.target.innerHTML = 'Dark mode';
+  } else {
+    html.classList.add('dark');
+    e.target.innerHTML = 'Light mode';
+  }
+});
