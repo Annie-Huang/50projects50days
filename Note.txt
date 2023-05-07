@@ -65,6 +65,9 @@ Movie app to get list from external api and hover on movie will show overview ca
 19-background-slider:
 Have two images on top of each other to give illusion it's a frame with a hole in the middle, carousel component with next and prev buttons.
 
+20-theme-clock:
+Clock with hour|minute|second hand. And setInterval to update the movement every second.
+
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
