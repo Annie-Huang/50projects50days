@@ -57,7 +57,7 @@ body {
   position: relative;
   width: 200px;
   aspect-ratio: 1;
-  background-color: #f0f0f0;
+  /*background-color: #f0f0f0;*/
 }
 
 .needle {
