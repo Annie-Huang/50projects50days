@@ -21,5 +21,7 @@ buttons.forEach((button) => {
 
     // Because we use this, so it has to be a regular function
     this.appendChild(circle);
+
+    setTimeout(() => circle.remove(), 500);
   });
 });
