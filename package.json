@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./21-button-ripple-effect"
+    "start": "lite-server --baseDir=./22-drag-n-drop"
   },
   "repository": {
     "type": "git",
