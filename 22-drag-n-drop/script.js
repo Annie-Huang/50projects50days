@@ -1,3 +1,11 @@
+const fill = document.querySelector('.fill');
+const empties = document.querySelectorAll('.empty');
+
+// dragstart is logged as soon as you click ont the .fill image
+// dragend is logged as soon as you release the .fill image to another location
+fill.addEventListener('dragstart', dragStart);
+fill.addEventListener('dragend', dragEnd);
+
 function dragStart() {
   console.log('drag start');
 }
