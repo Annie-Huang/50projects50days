@@ -15,6 +15,10 @@ for (const empty of empties) {
 
 function dragStart() {
   console.log('drag start');
+  this.className += ' hold'; // Make sure the hold image has the initial image + the border
+
+  // Need force invisiable to apply in the next cycle otherwise the hold above will not have the image at all.
+  setTimeout(() => (this.className = 'invisible'), 0);
 }
 
 function dragEnd() {
