@@ -45,11 +45,17 @@ function dragEnter(e) {
   // Default action: Reject immediate user selection as potential targget
   // Therefore we will need to disable it.
   e.preventDefault();
+
+  // When it's on hovered by the hold image, it will show the white background
+  this.className += ' hold';
 }
 
 // Is called whenever you leave the image from the current .empty div that you entered
 function dragLeave() {
   console.log('drag leave');
+
+  // When it's on leave by the hold image, it will remove the white background
+  this.className = 'empty';
 }
 
 function dragDrop() {
