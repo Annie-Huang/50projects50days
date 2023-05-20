@@ -23,15 +23,28 @@ function dragStart() {
 
 function dragEnd() {
   console.log('drag end');
+  this.className = 'fill'; // when mouse is release, add the fill class back into the div
 }
 
 // Is called whenever you drag and move the image into to another .empty div. the dragOver will continue logging even when you don't move while you are on top of a .empty
-function dragOver() {
+function dragOver(e) {
   console.log('drag over');
+
+  // The mdn version has been update the no longer have this information: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragover_event
+  // But in the old version it said
+  // Default action: Reset the current drag operation to 'none'
+  // Therefore we will need to disable it.
+  e.preventDefault();
 }
 
-function dragEnter() {
+function dragEnter(e) {
   console.log('drag enter');
+
+  // The mdn version has been update the no longer have this information: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragenter_event
+  // But in the old version it said
+  // Default action: Reject immediate user selection as potential targget
+  // Therefore we will need to disable it.
+  e.preventDefault();
 }
 
 // Is called whenever you leave the image from the current .empty div that you entered
@@ -41,4 +54,6 @@ function dragLeave() {
 
 function dragDrop() {
   console.log('drag drop');
+  this.className = 'empty';
+  this.append(fill);
 }
