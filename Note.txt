@@ -71,6 +71,9 @@ Clock with hour|minute|second hand. And setInterval to update the movement every
 21-button-ripple-effect:
 Button ripple effect from the point of the button clicked
 
+22-drag-n-drop:
+Drop and drop app.
+
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
