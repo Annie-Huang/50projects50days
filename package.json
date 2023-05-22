@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./22-drag-n-drop"
+    "start": "lite-server --baseDir=./23-drawing-app"
   },
   "repository": {
     "type": "git",
