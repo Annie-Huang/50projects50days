@@ -7,9 +7,18 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 let size = 20;
+let isPressed = false;
 let color = 'black';
 let x;
 let y;
+
+canvas.addEventListener('mousedown', (e) => {
+  isPressed = true;
+
+  x = e.offsetX;
+  y = e.offsetY;
+  console.log(isPressed, x, y);
+});
 
 function drawCircle(x, y) {
   // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes#moving_the_pen
