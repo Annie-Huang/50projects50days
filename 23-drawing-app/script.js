@@ -12,7 +12,7 @@ const clearEL = document.getElementById('clear');
 
 const ctx = canvas.getContext('2d');
 
-let size = 20;
+let size = 10;
 let isPressed = false;
 let color = 'black';
 let x;
@@ -74,3 +74,5 @@ function drawLine(x1, y1, x2, y2) {
 
 // drawCircle(100, 200);
 // drawLine(300, 300, 300, 500);
+
+colorEL.addEventListener('change', (e) => (color = e.target.value));
