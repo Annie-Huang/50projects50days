@@ -32,7 +32,10 @@ canvas.addEventListener('mousemove', (e) => {
   if (isPressed) {
     const x2 = e.offsetX;
     const y2 = e.offsetY;
-    console.log(x2, y2);
+    // console.log(x2, y2);
+
+    // You will see problem when you move super fast and it only got circles.
+    drawCircle(x2, y2);
   }
 });
 
