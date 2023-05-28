@@ -36,6 +36,12 @@ canvas.addEventListener('mousemove', (e) => {
 
     // You will see problem when you move super fast and it only got circles.
     drawCircle(x2, y2);
+
+    // Need to drawLine to connect the breakpoint when circle draws too fast.
+    // Hmm, when you draw super fast, you will still see each circle points on the line.
+    drawLine(x, y, x2, y2);
+    x = x2;
+    y = y2;
   }
 });
 
