@@ -38,7 +38,8 @@ canvas.addEventListener('mousemove', (e) => {
     drawCircle(x2, y2);
 
     // Need to drawLine to connect the breakpoint when circle draws too fast.
-    // Hmm, when you draw super fast, you will still see each circle points on the line.
+    // Hmm, when you draw super fast, you will still see each circle sits along on the line.
+    // Need to set the width of the line to be the same as the circle.
     drawLine(x, y, x2, y2);
     x = x2;
     y = y2;
@@ -60,7 +61,8 @@ function drawLine(x1, y1, x2, y2) {
   ctx.moveTo(x1, y1);
   ctx.lineTo(x2, y2);
   ctx.strokeStyle = color;
-  ctx.lineWidth = size;
+  // the line width need to be 2 times the circle radius so it doesn't appear to have all the bigger dots along the line when drawing.
+  ctx.lineWidth = size * 2;
   ctx.stroke();
 }
 
