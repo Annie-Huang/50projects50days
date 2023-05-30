@@ -77,6 +77,9 @@ Drop and drop app.
 23-drawing-app:
 Cool drawing app to allow drawing lines on canvas.
 
+24-kinetic-loader:
+Very cool spinner effect. The key is to think of how to break this into two elements and the rotation of each.
+
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
