@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./23-drawing-app"
+    "start": "lite-server --baseDir=./24-kinetic-loader"
   },
   "repository": {
     "type": "git",
