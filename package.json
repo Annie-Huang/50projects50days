@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./24-kinetic-loader"
+    "start": "lite-server --baseDir=./26-sticky-navigation"
   },
   "repository": {
     "type": "git",
