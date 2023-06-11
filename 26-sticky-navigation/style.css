@@ -33,4 +33,14 @@ body {
 
   position: relative;
   margin-bottom: 20px;
+
+  z-index: -2;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
