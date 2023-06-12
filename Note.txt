@@ -83,6 +83,9 @@ Very cool spinner effect. The key is to think of how to break this into two elem
 25-content-placeholder:
 Basically the mask on content and animate on gradient. Give the illusion of loading.
 
+26-sticky-navigation:
+Minimize nav header when scrolling. Very common used pattern.
+
 27-double-vertical-slider:
 On click the left panel will move down to the next image. the right panel will move up to the previous image
 
