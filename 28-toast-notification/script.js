@@ -10,15 +10,20 @@ const messages = [
 
 button.addEventListener('click', () => createNotification());
 
-function createNotification() {
+function createNotification(message = null, type = null) {
   // console.log(123);
 
   const notif = document.createElement('div');
   notif.classList.add('toast');
+  notif.classList.add(type ? type : 'info');
 
-  notif.innerText = getRandomMessage();
+  notif.innerText = message ? message : getRandomMessage();
 
   toasts.appendChild(notif);
+
+  setTimeout(() => {
+    notif.remove();
+  }, 3000);
 }
 
 function getRandomMessage() {
