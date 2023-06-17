@@ -89,6 +89,9 @@ Minimize nav header when scrolling. Very common used pattern.
 27-double-vertical-slider:
 On click the left panel will move down to the next image. the right panel will move up to the previous image
 
+28-toast-notification:
+Toast component to add toast message at the bottom right corner with different color base on the type. Will fade away after 3 seconds.
+
 37-hoverboard:
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
