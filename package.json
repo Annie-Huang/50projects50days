@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./26-sticky-navigation"
+    "start": "lite-server --baseDir=./28-toast-notification"
   },
   "repository": {
     "type": "git",
