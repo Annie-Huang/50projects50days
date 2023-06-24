@@ -53,6 +53,7 @@ body {
   display: flex;
   padding: 3rem;
   margin: 0 1.5rem;
+  gap: 2rem;
 }
 
 .avatar {
@@ -60,4 +61,26 @@ body {
   border: 10px solid #2a2a72;
   height: 150px;
   aspect-ratio: 1;
+}
+
+.user-info {
+  color: #eee;
+}
+.user-info h2 {
+  margin-top: 0;
+}
+.user-info ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 400px;
+}
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+.user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
 }
