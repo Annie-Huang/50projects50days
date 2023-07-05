@@ -5,6 +5,7 @@
 const APIURL = 'https://api.github.com/users/';
 
 const form = document.getElementById('form');
+const search = document.getElementById('search');
 
 // getUser('bradtraversy');
 
@@ -22,7 +23,13 @@ async function getUser(username) {
 }
 
 form.addEventListener('submit', (e) => {
-  e.preventDefault()
+  e.preventDefault();
 
-  const user = e.target.value
-}
+  const user = search.value;
+
+  if (user) {
+    getUser(user);
+
+    search.value = '';
+  }
+});
