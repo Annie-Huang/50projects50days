@@ -4,7 +4,9 @@
 // const APIURL = 'https://api.github.com/usersw/';
 const APIURL = 'https://api.github.com/users/';
 
-getUser('bradtraversy');
+const form = document.getElementById('form');
+
+// getUser('bradtraversy');
 
 async function getUser(username) {
   // axios(APIURL + username)
@@ -17,4 +19,10 @@ async function getUser(username) {
   } catch (err) {
     console.log(err);
   }
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+
+  const user = e.target.value
 }
