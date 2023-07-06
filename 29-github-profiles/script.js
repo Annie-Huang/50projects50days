@@ -4,6 +4,7 @@
 // const APIURL = 'https://api.github.com/usersw/';
 const APIURL = 'https://api.github.com/users/';
 
+const main = document.getElementById('main');
 const form = document.getElementById('form');
 const search = document.getElementById('search');
 
@@ -16,7 +17,9 @@ async function getUser(username) {
 
   try {
     const { data } = await axios(APIURL + username);
-    console.log(data);
+    // console.log(data);
+
+    createUserCard(data);
   } catch (err) {
     console.log(err);
   }
@@ -53,6 +56,7 @@ function createUserCard(user) {
       </div>
     </div>
   `;
+  main.innerHTML = cardHTML;
 }
 
 form.addEventListener('submit', (e) => {
