@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./29-github-profiles"
+    "start": "lite-server --baseDir=./30-double-click-heart"
   },
   "repository": {
     "type": "git",
