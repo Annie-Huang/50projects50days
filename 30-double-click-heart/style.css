@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=0swald');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: '0swald', sans-serif;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+}
