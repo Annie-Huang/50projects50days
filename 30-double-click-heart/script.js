@@ -45,4 +45,7 @@ const createHeart = (e) => {
   loveMe.appendChild(heart);
 
   times.innerHTML = ++timeClicked;
+
+  // Clean out the heart element after 1s, otherwise, it will keep on adding.
+  setTimeout(() => heart.remove(), 1000);
 };
