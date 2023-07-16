@@ -95,6 +95,10 @@ Toast component to add toast message at the bottom right corner with different c
 29-github-profiles:
 A page what show user's github profile info after you enter the user github name to search.
 
+30-double-click-heart:
+Very interesting implementation of a custom double click method to manually control the time interval between two clicks.
+Double clicked inside the image will show a heart element and grow + fade out.
+
 37-hoverboard:
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
