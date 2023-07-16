@@ -2,6 +2,8 @@ const loveMe = document.querySelector('.loveMe');
 const times = document.querySelector('#times');
 
 let clickTime = 0;
+let timeClicked = 0;
+
 // loveMe.addEventListener('dblclick', (e) => {
 //   console.log(123);
 // });
@@ -41,4 +43,6 @@ const createHeart = (e) => {
   heart.style.left = `${xInside}px`;
 
   loveMe.appendChild(heart);
+
+  times.innerHTML = ++timeClicked;
 };
