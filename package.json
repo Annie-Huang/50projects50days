@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./30-double-click-heart"
+    "start": "lite-server --baseDir=./31-auto-text-effect"
   },
   "repository": {
     "type": "git",
