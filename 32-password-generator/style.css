@@ -32,9 +32,9 @@ h2 {
 
 .result-container {
   background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  /*display: flex;*/
+  /*justify-content: flex-start;*/
+  /*align-items: center;*/
   position: relative;
   font-size: 18px;
   letter-spacing: 1px;
@@ -46,6 +46,15 @@ h2 {
 .result-container #result {
   word-wrap: break-word;
   max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  aspect-ratio: 1;
+  font-size: 20px;
 }
 
 .btn {
