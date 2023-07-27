@@ -102,6 +102,9 @@ Double clicked inside the image will show a heart element and grow + fade out.
 31-auto-text-effect:
 Simple little project to display letters of the sentence one letter by one letter as it looks like it's typing out by the system. Can control the speed.
 
+32-password-generator:
+Simple random password generator. But good function to copy things into clipboard!
+
 37-hoverboard:
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
