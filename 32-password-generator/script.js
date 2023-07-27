@@ -1,5 +1,12 @@
 // https://www.w3schools.com/charsets/ref_html_ascii.asp
 
+const randomFunc = {
+  lower: getRandomLower,
+  upper: getRandomUpper,
+  number: getRandomNumber,
+  symbol: getRandomSymbol,
+};
+
 function getRandomLower() {
   // 97 is 'a'
   return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
@@ -15,4 +22,9 @@ function getRandomNumber() {
   return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
 }
 
-console.log(getRandomNumber());
+function getRandomSymbol() {
+  const symbols = '!@#$%^&*(){}[]=<>/,.';
+  return symbols[Math.floor(Math.random() * symbols.length)];
+}
+
+console.log(getRandomSymbol());
