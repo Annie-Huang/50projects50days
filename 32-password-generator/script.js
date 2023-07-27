@@ -18,14 +18,33 @@ const randomFunc = {
 
 generateEL.addEventListener('click', () => {
   const length = +lengthEL.value;
-  console.log(length);
+  // console.log(length);
 
   const hasLower = lowercaseEL.checked;
   const hasUpper = uppercaseEL.checked;
   const hasNumber = numbersEL.checked;
   const hasSymbol = symbolsEL.checked;
-  console.log(hasLower, hasUpper, hasNumber, hasSymbol);
+  // console.log(hasLower, hasUpper, hasNumber, hasSymbol);
+
+  resultEL.innerText = generatePassword(
+    hasLower,
+    hasUpper,
+    hasNumber,
+    hasSymbol,
+    length
+  );
 });
+
+function generatePassword(lower, upper, number, symbol, length) {
+  let generatedPassword = '';
+  const typesCount = lower + upper + number + symbol;
+  // const typesArr = [{ lower }, { upper }, { number }, { symbol }];
+  // console.log(typesArr);
+  const typesArr = [{ lower }, { upper }, { number }, { symbol }].filter(
+    (item) => Object.values(item)[0]
+  );
+  console.log(typesArr);
+}
 
 function getRandomLower() {
   // 97 is 'a'
