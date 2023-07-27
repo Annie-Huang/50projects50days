@@ -58,6 +58,11 @@ function generatePassword(lower, upper, number, symbol, length) {
       console.log(generatedPassword);
     });
   }
+
+  // in case the length is not the full times of the typesCount
+  const finalPassword = generatedPassword.slice(0, length);
+
+  return finalPassword;
 }
 
 function getRandomLower() {
