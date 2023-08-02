@@ -105,6 +105,9 @@ Simple little project to display letters of the sentence one letter by one lette
 32-password-generator:
 Simple random password generator. But good function to copy things into clipboard!
 
+33-good-cheap-fast:
+Convert checkbox into toggle button. Total 3 toggle buttons and add logic to allow max 2 buttons to be on at any one time.
+
 37-hoverboard:
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
