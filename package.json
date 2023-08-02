@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./32-password-generator"
+    "start": "lite-server --baseDir=./33-good-cheap-fast"
   },
   "repository": {
     "type": "git",
