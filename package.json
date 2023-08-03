@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./33-good-cheap-fast"
+    "start": "lite-server --baseDir=./34-notes-app"
   },
   "repository": {
     "type": "git",
