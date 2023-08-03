@@ -1,7 +1,7 @@
 const addBtn = document.getElementById('add');
 
-// addBtn.addEventListener('click', () => addNewNote());
-addBtn.addEventListener('click', () => addNewNote('Hello World'));
+addBtn.addEventListener('click', () => addNewNote());
+// addBtn.addEventListener('click', () => addNewNote('Hello World'));
 
 function addNewNote(text = '') {
   const note = document.createElement('div');
@@ -36,6 +36,12 @@ function addNewNote(text = '') {
     const { value } = e.target;
 
     main.innerHTML = marked(value);
+    /*
+    Markdown syntax can be:
+# h1 heading
+- abc
+- ewjf
+    * */
   });
 
   document.body.appendChild(note);
