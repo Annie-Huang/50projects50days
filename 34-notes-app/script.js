@@ -42,6 +42,8 @@ function addNewNote(text = '') {
 - abc
 - ewjf
     * */
+
+    updateLS();
   });
 
   document.body.appendChild(note);
@@ -52,3 +54,16 @@ function addNewNote(text = '') {
 // localStorage.getItem('name');
 // JSON.parse(localStorage.getItem('name'));
 // localStorage.removeItem('name');
+
+function updateLS() {
+  const notesText = document.querySelectorAll('textarea');
+
+  const notes = [];
+
+  notesText.forEach((note) => notes.push(note.value));
+
+  // ['Note1', 'Note2']
+  console.log(notes);
+
+  localStorage.setItem('note', JSON.stringify(notes));
+}
