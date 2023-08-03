@@ -1,6 +1,7 @@
 const addBtn = document.getElementById('add');
 
-addBtn.addEventListener('click', () => addNewNote());
+// addBtn.addEventListener('click', () => addNewNote());
+addBtn.addEventListener('click', () => addNewNote('Hello World'));
 
 function addNewNote(text = '') {
   const note = document.createElement('div');
