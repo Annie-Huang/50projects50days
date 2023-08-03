@@ -1,5 +1,12 @@
 const addBtn = document.getElementById('add');
 
+const notes = JSON.parse(localStorage.getItem('notes'));
+console.log(notes);
+
+if (notes) {
+  notes.forEach((note) => addNewNote(note));
+}
+
 addBtn.addEventListener('click', () => addNewNote());
 // addBtn.addEventListener('click', () => addNewNote('Hello World'));
 
@@ -65,5 +72,5 @@ function updateLS() {
   // ['Note1', 'Note2']
   console.log(notes);
 
-  localStorage.setItem('note', JSON.stringify(notes));
+  localStorage.setItem('notes', JSON.stringify(notes));
 }
