@@ -108,6 +108,9 @@ Simple random password generator. But good function to copy things into clipboar
 33-good-cheap-fast:
 Convert checkbox into toggle button. Total 3 toggle buttons and add logic to allow max 2 buttons to be on at any one time.
 
+34-notes-app:
+A simple app to sync a note card content (create, edit, remove) into local storage.
+
 37-hoverboard:
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
