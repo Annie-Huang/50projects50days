@@ -46,3 +46,9 @@ function addNewNote(text = '') {
 
   document.body.appendChild(note);
 }
+
+// localStorage.setItem('name', JSON.stringify(obj));
+// localStorage.setItem('name', 'Brad');
+// localStorage.getItem('name');
+// JSON.parse(localStorage.getItem('name'));
+// localStorage.removeItem('name');
