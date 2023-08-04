@@ -12,11 +12,17 @@ function runAnimation() {
     console.log(num, idx);
 
     num.addEventListener('animationend', (e) => {
+      // When we see goIn keyframe, swap .in to .out class
       if (e.animationName === 'goIn' && idx !== nextToLast) {
         num.classList.remove('in');
         num.classList.add('out');
       } else if (e.animationName === 'goOut' && num.nextElementSibling) {
+        // When we see goOut keyframe, move on to the nextElementSibling
         num.nextElementSibling.classList.add('in');
+      } else {
+        // When the countdown finish
+        counter.classList.add('hide');
+        finalMessage.classList.add('show');
       }
     });
   });
