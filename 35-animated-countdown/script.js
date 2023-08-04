@@ -15,6 +15,8 @@ function runAnimation() {
       if (e.animationName === 'goIn' && idx !== nextToLast) {
         num.classList.remove('in');
         num.classList.add('out');
+      } else if (e.animationName === 'goOut' && num.nextElementSibling) {
+        num.nextElementSibling.classList.add('in');
       }
     });
   });
