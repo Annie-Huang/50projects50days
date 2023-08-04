@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./34-notes-app"
+    "start": "lite-server --baseDir=./35-animated-countdown"
   },
   "repository": {
     "type": "git",
