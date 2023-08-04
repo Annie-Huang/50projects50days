@@ -111,6 +111,9 @@ Convert checkbox into toggle button. Total 3 toggle buttons and add logic to all
 34-notes-app:
 A simple app to sync a note card content (create, edit, remove) into local storage.
 
+35-animated-countdown:
+Very nice rotating+bouncing count down effect from 3-0.
+
 37-hoverboard:
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
