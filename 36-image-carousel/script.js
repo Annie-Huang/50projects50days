@@ -22,3 +22,8 @@ function changeImage() {
 
   imgs.style.transform = `translateX(${-idx * 500}px)`;
 }
+
+rightBtn.addEventListener('click', () => {
+  idx--;
+  changeImage();
+});
