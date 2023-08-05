@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./35-animated-countdown"
+    "start": "lite-server --baseDir=./36-image-carousel"
   },
   "repository": {
     "type": "git",
