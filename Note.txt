@@ -118,6 +118,9 @@ Very nice rotating+bouncing count down effect from 3-0.
 When hover and move the mouse, you can see a tail of color appear in each box.
 Good info about transition in one directly only.
 
+36-image-carousel:
+Carousel that can auto rotate every set interval. And prev and next button to go to the image and reset the interval.
+
 41-3d-boxes-background:
 Click | unclick the Magic button to rotate open | close the image.
 Create two parallelogram so it gives the 3D effect of the box.
