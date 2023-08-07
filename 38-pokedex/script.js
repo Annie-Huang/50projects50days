@@ -37,16 +37,19 @@ const createPokemonCard = (pokemon) => {
   const pokemonEl = document.createElement('div');
   pokemonEl.classList.add('pokemon');
 
+  const name = pokemon.name[0].charAt(0).toUpperCase() + pokemon.name.slice(1);
+  const id = pokemon.id.toString().padStart(3, '0');
+
   const pokemonInnerHTML = `
     <div class="img-container">
       <img
-        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png"
         alt=""
       />
     </div>
     <div class="info">
-      <span class="number">#001</span>
-      <h3 class="name">Bulbasaur</h3>
+      <span class="number">#${id}</span>
+      <h3 class="name">${name}</h3>
       <small class="type">Type: <span>grass</span></small>
     </div>
   `;
