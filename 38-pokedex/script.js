@@ -1,7 +1,7 @@
 // https://pokeapi.co/
 
 const poke_container = document.getElementById('poke-container');
-const pokemon_count = 150;
+const pokemon_count = 5;
 const colors = {
   fire: '#FDDFDF',
   grass: '#DEFDE0',
@@ -30,6 +30,26 @@ const getPokemon = async (id) => {
   const res = await fetch(url);
   const data = await res.json();
   console.log(data);
+  createPokemonCard(data);
+};
+
+const createPokemonCard = (pokemon) => {
+  const pokemonEl = document.createElement('div');
+  pokemonEl.classList.add('pokemon');
+
+  const pokemonInnerHTML = `
+    <div class="img-container">
+      <img
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        alt=""
+      />
+    </div>
+    <div class="info">
+      <span class="number">#001</span>
+      <h3 class="name">Bulbasaur</h3>
+      <small class="type">Type: <span>grass</span></small>
+    </div>
+  `;
 };
 
 fetchPokemons();
