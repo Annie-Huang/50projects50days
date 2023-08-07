@@ -50,6 +50,10 @@ const createPokemonCard = (pokemon) => {
       <small class="type">Type: <span>grass</span></small>
     </div>
   `;
+
+  pokemonEl.innerHTML = pokemonInnerHTML;
+
+  poke_container.appendChild(pokemonEl);
 };
 
 fetchPokemons();
