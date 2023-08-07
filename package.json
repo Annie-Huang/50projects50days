@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./36-image-carousel"
+    "start": "lite-server --baseDir=./38-pokedex"
   },
   "repository": {
     "type": "git",
