@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./38-pokedex"
+    "start": "lite-server --baseDir=./39-mobile-tab-navigation"
   },
   "repository": {
     "type": "git",
