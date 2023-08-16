@@ -127,6 +127,9 @@ Simple api fetch project. Nothing special on this project.
 39-mobile-tab-navigation:
 Simple mobile home page with menu. Nothing special on this project.
 
+40-password-strength-background:
+As we add more letters into the password input, the blur of the background image will reduces. Nothing special on this project.
+
 41-3d-boxes-background:
 Click | unclick the Magic button to rotate open | close the image.
 Create two parallelogram so it gives the 3D effect of the box.
