@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./40-password-strength-background"
+    "start": "lite-server --baseDir=./42-verify-account-ui"
   },
   "repository": {
     "type": "git",
