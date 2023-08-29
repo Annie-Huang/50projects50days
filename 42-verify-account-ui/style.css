@@ -40,6 +40,9 @@ body {
   margin: 1%;
   text-align: center;
   font-weight: 300;
+
+  /* Firefox: This is to get rid of the up and down button when clicking into <input type='number'> */
+  -moz-appearance: textfield;
 }
 
 /* Chrome and Safari: This is to get rid of the up and down button when clicking into <input type='number'> */
