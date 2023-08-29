@@ -41,3 +41,10 @@ body {
   text-align: center;
   font-weight: 300;
 }
+
+/* Chrome and Safari: This is to get rid of the up and down button when clicking into <input type='number'> */
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
