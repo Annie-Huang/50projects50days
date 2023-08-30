@@ -134,6 +134,9 @@ As we add more letters into the password input, the blur of the background image
 Click | unclick the Magic button to rotate open | close the image.
 Create two parallelogram so it gives the 3D effect of the box.
 
+42-verify-account-ui:
+Very nice form for entering the 6 digits one time pass code that get generated and send to user by email or sms.
+
 43-live-user-filter:
 Basically autocomplete component
 
