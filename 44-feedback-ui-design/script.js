@@ -21,6 +21,14 @@ ratingsContainer.addEventListener('click', (e) => {
     }
     // console.log(selectedRating);
     // console.log(e.target.tagName);
+  } else if (e.target.classList.contains('rating')) {
+    // Make it worked when just clicking on the rating card as well.
+
+    // console.log(e.target);
+    removeActive();
+    e.target.classList.add('active');
+    selectedRating = e.target.children[1].innerHTML; // the <small> text
+    // console.log(selectedRating);
   }
 });
 
