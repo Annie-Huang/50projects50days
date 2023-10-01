@@ -1,9 +1,11 @@
 const ratings = document.querySelectorAll('.rating');
+const ratingsContainer = document.querySelector('.ratings-container');
 const sendBtn = document.querySelector('#send');
 const panel = document.querySelector('#panel');
 let selectedRating = 'Satisfied';
 
-panel.addEventListener('click', (e) => {
+// Use ratingsContainer instaead of panel because sendBtn is part of ratingsContainer. So click on button clicked will not trigger event on rating container.
+ratingsContainer.addEventListener('click', (e) => {
   // console.log(e.target);
 
   // When the <img> or <small> is clicked:
