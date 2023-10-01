@@ -141,5 +141,5 @@ Very nice form for entering the 6 digits one time pass code that get generated a
 Basically autocomplete component
 
 44-feedback-ui-design:
-Good use of event bubbling and even propagation in JS.
+Good use of event bubbling and event propagation in JS. If parent got 100 children, click on 1 child is better to use bubbling and propagation on parent than adding 100 event listeners to children.
 
