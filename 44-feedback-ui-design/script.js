@@ -1,6 +1,7 @@
 const ratings = document.querySelectorAll('.rating');
 const sendBtn = document.querySelector('#send');
 const panel = document.querySelector('#panel');
+let selectedRating = 'Satisfied';
 
 panel.addEventListener('click', (e) => {
   // console.log(e.target);
@@ -10,6 +11,14 @@ panel.addEventListener('click', (e) => {
     console.log(e.target);
     removeActive();
     e.target.parentNode.classList.add('active');
+
+    if (e.target.tagName === 'IMG') {
+      selectedRating = e.target.nextElementSibling.innerHTML;
+    } else {
+      selectedRating = e.target.innerHTML;
+    }
+    // console.log(selectedRating);
+    // console.log(e.target.tagName);
   }
 });
 
