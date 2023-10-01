@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./42-verify-account-ui"
+    "start": "lite-server --baseDir=./44-feedback-ui-design"
   },
   "repository": {
     "type": "git",
