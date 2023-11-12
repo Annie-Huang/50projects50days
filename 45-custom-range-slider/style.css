@@ -29,3 +29,14 @@ input[type='range'] {
   margin: 18px 0;
   -webkit-appearance: none; /* this is the track */
 }
+input[type='range'] + label {
+  background-color: #fff;
+  position: absolute;
+  top: -25px;
+  left: 110px;
+  width: 80px;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
