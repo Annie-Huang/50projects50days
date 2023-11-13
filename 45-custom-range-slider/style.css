@@ -80,3 +80,27 @@ input[type='range']::-moz-range-thumb {
   margin-top: -7px;
   cursor: pointer;
 }
+
+/* For Edge, https://stackoverflow.com/questions/57421962/range-slider-how-to-style-on-ie-edge */
+/*input[type='range']::-ms-fill-lower {*/
+/*  background: purple;*/
+/*}*/
+input[type='range']::-ms-fill-upper {
+  background: purple;
+}
+input[type='range']::-ms-track {
+  background: purple;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+input[type='range']::-ms-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid purple;
+  margin-top: -7px;
+  cursor: pointer;
+}
