@@ -143,3 +143,5 @@ Basically autocomplete component
 44-feedback-ui-design:
 Good use of event bubbling and event propagation in JS. If parent got 100 children, click on 1 child is better to use bubbling and propagation on parent than adding 100 event listeners to children.
 
+45-custom-range-slider
+Good use to move label according to the <input type='range'> position. And also make the text number always align to the top of the ball
