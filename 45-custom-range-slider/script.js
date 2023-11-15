@@ -9,7 +9,13 @@ range.addEventListener('input', (e) => {
 
   const num_width = +range_width.slice(0, -2);
   const num_label_width = +label_width.slice(0, -2);
-  console.log(num_width, num_label_width);
+
+  const max = +e.target.max;
+  const min = +e.target.min;
+
+  const left = value * (num_width / max) - num_label_width / 2; // from -40 to 260
+
+  console.log(left);
 
   label.innerHTML = value;
 });
