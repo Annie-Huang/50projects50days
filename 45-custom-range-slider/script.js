@@ -15,6 +15,8 @@ range.addEventListener('input', (e) => {
 
   const left = value * (num_width / max) - num_label_width / 2; // from -40 to 260
 
+  label.style.left = `${left}px`;
+
   console.log(left);
 
   label.innerHTML = value;
