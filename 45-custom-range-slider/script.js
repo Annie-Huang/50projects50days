@@ -13,7 +13,12 @@ range.addEventListener('input', (e) => {
   const max = +e.target.max;
   const min = +e.target.min;
 
-  const left = value * (num_width / max) - num_label_width / 2; // from -40 to 260
+  // from -40 to 260
+  // The scale(value, min, max, 10, -10) part is to make sure the ball is always underneath the center of the numbers when move to the edge
+  const left =
+    value * (num_width / max) -
+    num_label_width / 2 +
+    scale(value, min, max, 10, -10);
 
   label.style.left = `${left}px`;
 
