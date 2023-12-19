@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./45-custom-range-slider"
+    "start": "lite-server --baseDir=./46-netflix-mobile-navigation"
   },
   "repository": {
     "type": "git",
