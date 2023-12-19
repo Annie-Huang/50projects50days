@@ -60,4 +60,13 @@ body {
 .nav-white {
   background-color: #fff;
   width: 95%;
+  padding: 40px;
+  position: relative;
+}
+
+.close-btn {
+  opacity: 0.3;
+  position: absolute;
+  top: 40px;
+  right: 30px;
 }
