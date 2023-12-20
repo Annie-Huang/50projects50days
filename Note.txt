@@ -145,3 +145,6 @@ Good use of event bubbling and event propagation in JS. If parent got 100 childr
 
 45-custom-range-slider
 Good use to move label according to the <input type='range'> position. And also make the text number always align to the top of the ball
+
+46-netflix-mobile-navigation
+Nice 3 layer drawer coming out one after another when open | close drawer
