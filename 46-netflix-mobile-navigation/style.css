@@ -52,6 +52,11 @@ body {
   width: 60%;
   max-width: 480px;
   min-width: 320px;
+  transition-delay: 0.4s;
+}
+/* The following is when it is open */
+.nav-black.visible {
+  transition-delay: 0s;
 }
 .nav-red {
   background-color: rgb(229, 9, 20);
