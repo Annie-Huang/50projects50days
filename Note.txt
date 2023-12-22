@@ -148,3 +148,6 @@ Good use to move label according to the <input type='range'> position. And also 
 
 46-netflix-mobile-navigation
 Nice 3 layer drawer coming out one after another when open | close drawer
+
+47-quiz-app
+Let user to choose answer for each question and give final result at the end. Not so special.
