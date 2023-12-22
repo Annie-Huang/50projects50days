@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./46-netflix-mobile-navigation"
+    "start": "lite-server --baseDir=./47-quiz-app"
   },
   "repository": {
     "type": "git",
