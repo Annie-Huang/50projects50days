@@ -67,6 +67,12 @@ function updateTestimonial() {
   userImage.src = photo;
   username.innerHTML = name;
   role.innerHTML = position;
+
+  idx++;
+
+  if (idx > testimonials.length - 1) {
+    idx = 0;
+  }
 }
 
-updateTestimonial();
+setInterval(updateTestimonial, 10000);
