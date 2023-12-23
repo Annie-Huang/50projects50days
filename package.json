@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./48-testimonial-box-switcher"
+    "start": "lite-server --baseDir=./49-random-image-generator"
   },
   "repository": {
     "type": "git",
