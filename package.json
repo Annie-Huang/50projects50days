@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./47-quiz-app"
+    "start": "lite-server --baseDir=./48-testimonial-box-switcher"
   },
   "repository": {
     "type": "git",
