@@ -67,6 +67,21 @@ body {
   margin: 10px 0;
 }
 
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  /* Very confused, without the following, it will still send the width to be 100%. I cannot tell what is setting that! */
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
 @media (max-width: 768px) {
   .testimonial-container {
     padding: 20px 30px;
