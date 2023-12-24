@@ -23,6 +23,15 @@ function addTodo(todo) {
 
     todoEl.innerText = todoText;
 
+    todoEl.addEventListener('click', () =>
+      todoEl.classList.toggle('completed')
+    );
+    todoEl.addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+
+      todoEl.remove();
+    });
+
     todosUL.appendChild(todoEl);
 
     input.value = '';
