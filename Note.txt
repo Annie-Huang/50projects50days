@@ -154,3 +154,6 @@ Let user to choose answer for each question and give final result at the end. No
 
 48-testimonial-box-switcher
 Nice setInterval + animate progression bar so the cards can circulate forever.
+
+49-random-image-generator
+Get 30 images from the website and display it. Nothing special about this one.
