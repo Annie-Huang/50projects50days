@@ -22,5 +22,22 @@ choose_insect_btns.forEach((btn) => {
     const alt = img.getAttribute('alt');
     selected_insect = { src, alt };
     screens[1].classList.add('up');
+    setTimeout(createInsect, 1000);
+    startGame();
   });
 });
+
+function createInsect() {
+  const insect = document.createElement('div');
+  insect.classList.add('insect');
+
+  const { x, y } = getRandomLocation();
+}
+
+function getRandomLocation() {
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+  const x = Math.random() * (width - 200) + 100;
+  const y = Math.random() * (height - 200) + 100;
+  return { x, y };
+}
