@@ -129,6 +129,9 @@ h1 {
   top: 400px;
   left: 500px;
 }
+.insect.caught {
+  transform: translate(-50%, -50%) scale(0);
+}
 .insect img {
   width: 100px;
   aspect-ratio: 1;
