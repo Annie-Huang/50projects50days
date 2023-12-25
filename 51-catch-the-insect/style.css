@@ -116,3 +116,20 @@ h1 {
   transform: translate(-50%, 150%);
   opacity: 1;
 }
+
+.insect {
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  width: 100px;
+  aspect-ratio: 1;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.3s ease-in-out;
+  top: 400px;
+  left: 500px;
+}
+.insect img {
+  width: 100px;
+  aspect-ratio: 1;
+}
