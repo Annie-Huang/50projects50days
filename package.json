@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./50-todo-list"
+    "start": "lite-server --baseDir=./51-catch-the-insect"
   },
   "repository": {
     "type": "git",
