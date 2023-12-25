@@ -45,7 +45,7 @@ h1 {
   width: 100vw;
 }
 .screen.up {
-  margin-top: -200vh; /* -100vh will show the second page, -200vh will show the third page */
+  margin-top: -100vh; /* -100vh will show the second page, -200vh will show the third page */
 }
 
 .insects-list {
