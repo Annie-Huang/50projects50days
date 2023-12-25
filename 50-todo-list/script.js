@@ -29,20 +29,39 @@ function addTodo(todo) {
 
     todoEl.innerText = todoText;
 
-    todoEl.addEventListener('click', () =>
-      todoEl.classList.toggle('completed')
-    );
+    todoEl.addEventListener('click', () => {
+      todoEl.classList.toggle('completed');
+      updateLS();
+    });
     todoEl.addEventListener('contextmenu', (e) => {
       e.preventDefault();
 
       todoEl.remove();
+      updateLS();
     });
 
     todosUL.appendChild(todoEl);
 
     input.value = '';
+
+    updateLS();
   }
 }
 
 // localStorage.setItem('name', JSON.stringify(obj))
 // JSON.parse(localStorage.getItem(obj))
+
+function updateLS() {
+  todosEl = document.querySelectorAll('li');
+
+  const todos = [];
+
+  todosEl.forEach((todoEl) => {
+    todos.push({
+      text: todoEl.innerText,
+      completed: todoEl.classList.contains('completed'),
+    });
+  });
+
+  localStorage.setItem('todos', JSON.stringify(todos));
+}
