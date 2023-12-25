@@ -11,6 +11,7 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  text-align: center;
 }
 
 .btn {
@@ -35,6 +36,9 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
+}
+.screen.up {
+  margin-top: -100vh; /* -100vh will show the second page, -200vh will show the third page */
 }
 
 .choose-insect-btn img {
