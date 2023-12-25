@@ -157,3 +157,6 @@ Nice setInterval + animate progression bar so the cards can circulate forever.
 
 49-random-image-generator
 Get 30 images from the website and display it. Nothing special about this one.
+
+50-todo-list
+Todo program with local storage. Nothing special about this one.
