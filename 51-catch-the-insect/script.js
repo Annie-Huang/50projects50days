@@ -66,5 +66,16 @@ function getRandomLocation() {
 }
 
 function catchInsect() {
-  console.log('123');
+  // console.log('123');
+  increaseScore();
+}
+
+function increaseScore() {
+  score++;
+
+  if (score > 19) {
+    messageEl.classList.add('visible');
+  }
+
+  scoreEl.innerHTML = `Score: ${score}`;
 }
