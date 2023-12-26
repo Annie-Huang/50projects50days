@@ -8,7 +8,7 @@ const messageEl = document.getElementById('message');
 
 // screens[0].classList.add('up');
 
-let second = 0;
+let seconds = 0;
 let score = 0;
 let selected_insect = {};
 
@@ -26,6 +26,19 @@ choose_insect_btns.forEach((btn) => {
     startGame();
   });
 });
+
+function startGame() {
+  setInterval(increaseTime, 1000);
+}
+
+function increaseTime() {
+  let m = Math.floor(seconds / 60);
+  let s = seconds % 60;
+  m = m < 10 ? `0${m}` : m;
+  s = s < 10 ? `0${s}` : s;
+  timeEl.innerHTML = `Time: ${m}:${s}`;
+  seconds++;
+}
 
 function createInsect() {
   const insect = document.createElement('div');
