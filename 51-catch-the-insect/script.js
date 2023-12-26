@@ -39,6 +39,9 @@ function createInsect() {
     src="${selected_insect.src}"
     alt="${selected_insect.alt}" 
     style="transform: rotate(${Math.random() * 360}deg)" />`;
+
+  insect.addEventListener('click', catchInsect);
+  game_container.appendChild(insect);
 }
 
 function getRandomLocation() {
@@ -47,4 +50,8 @@ function getRandomLocation() {
   const x = Math.random() * (width - 200) + 100;
   const y = Math.random() * (height - 200) + 100;
   return { x, y };
+}
+
+function catchInsect() {
+  console.log('123');
 }
