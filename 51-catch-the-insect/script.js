@@ -65,9 +65,13 @@ function getRandomLocation() {
   return { x, y };
 }
 
+// Function when you click on the insect.
 function catchInsect() {
   // console.log('123');
   increaseScore();
+
+  this.classList.add('caught');
+  setTimeout(() => this.remove(), 2000);
 }
 
 function increaseScore() {
